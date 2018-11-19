@@ -89,13 +89,13 @@ def initialize() {
 
 def someEventHandler(evt) {
     // returns a list of the values for all switches
-    def currSwitches = switches.currentSwitch
+    def currSwitches = switchOn.currentSwitch
 
     def onSwitches = currSwitches.findAll { switchVal ->
         switchVal == "on" ? true : false
     }
 
-    log.debug "${onSwitches.size()} out of ${switches.size()} switches are on"
+    log.debug "${onSwitches.size()} out of ${switchOn.size()} switches are on"
 }
 
 def buttonHandler(evt) {
@@ -107,19 +107,11 @@ def motionHandler(evt) {
 }
 
 def contactOpenHandler(evt) {
-    def currContacts = switches.currentContact
-
-    def onContacts = currContacts.findAll { contactVal ->
-        contactVal == "open" ? relayMessage("${currContacts.getDisplayName()} was closed", evt) : false
-    }
+    relayMessage("${evt.getDisplayName()} was open", evt)
 }
 
 def contactCloseHandler(evt) {
-    def currContacts = switches.currentContact
-
-    def onContacts = currContacts.findAll { contactVal ->
-        contactVal == "closed" ? relayMessage("${currContacts.getDisplayName()} was closed", evt) : false
-    }
+    relayMessage("${evt.getDisplayName()} was closed", evt)
 }
 
 def accelerationHandler(evt) {
@@ -127,7 +119,7 @@ def accelerationHandler(evt) {
 }
 
 def switchOnHandler(evt) {
-    def currSwitches = switches.currentSwitch
+    def currSwitches = switchOn.currentSwitch
 
     def onSwitches = currSwitches.findAll { switchVal ->
         switchVal == "on" ? relayMessage("${currSwitches.getDisplayName()} was turned on", evt) : false
@@ -135,7 +127,7 @@ def switchOnHandler(evt) {
 }
 
 def switchOffHandler(evt) {
-    def currSwitches = switches.currentSwitch
+    def currSwitches = switchOn.currentSwitch
 
     def onSwitches = currSwitches.findAll { switchVal ->
         switchVal == "off" ? relayMessage("${currSwitches.getDisplayName()} was turned off", evt) : false
@@ -158,7 +150,7 @@ def waterSensorHandler(evt) {
 	relayMessage("${evt.getDisplayName()} was ${evt.value}", evt)
 }
 
-def relayMessage(device, message, evt) {
+def relayMessage(message, evt) {
     log.debug "relayMessage called"
     try {
 		def myJson = "{ \"command\": \"${message}\",\"broadcast\": true }"
@@ -234,4 +226,3 @@ def buttonOldHandler(evt) {
     	log.debug "stop holding the button down!!!"
     }
 }
-
