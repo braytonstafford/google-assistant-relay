@@ -1,5 +1,5 @@
 /**
- *  Google Assistant Relay
+ *  Google Assistant Relay Notifications
  *
  *  Copyright 2018 Brayton Stafford
  *
@@ -14,10 +14,10 @@
  *
  */
 definition(
-    name: "Google Assistant Relay",
+    name: "Google Assistant Relay Notifications",
     namespace: "braytonstafford",
     author: "Brayton Stafford",
-    description: "Google Assistant Relay smartapp relays notfications from your devices to the Google Assistant Relay nodejs app hosted on your local network",
+    description: "Google Assistant Relay Notifications smartapp relays notfications from your devices to the Google Assistant Relay nodejs app hosted on your local network",
     category: "Convenience",
     iconUrl: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo.png",
     iconX2Url: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo@2x.png",
