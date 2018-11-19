@@ -2,7 +2,7 @@
 
 SmartApp to broadcast SmartThings device state changes to your Google Home using the [Google Assistant Relay v2](https://community.smartthings.com/t/release-google-assistant-relay-v2-0-google-home-audio-notifications).
 
-This smartapp only works if you have the Google Assistant Relay Notifications setup on the same network your smartthings hub is connected to. For imformation and support for the Google Assistant Relay visit the [Google Assistant Relay v2 SmartThing's forum post.](https://community.smartthings.com/t/release-google-assistant-relay-v2-0-google-home-audio-notifications) 
+This smartapp only works if you have the Google Assistant Relay v2 setup on the same network your smartthings hub is connected to. For imformation and support for the Google Assistant Relay visit the [Google Assistant Relay v2 SmartThing's forum post.](https://community.smartthings.com/t/release-google-assistant-relay-v2-0-google-home-audio-notifications) 
 
 # Install Instructions
 ## STEP 1: Install the SmartApp
