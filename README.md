@@ -22,7 +22,7 @@ Click Add new repository and fill in the fields with these exact values and clic
 
 Click Update from Repo and select google-assistant-relay (master)
 
-In the right side panel under New (only in GitHub) check the box next to smartapps/braytonstafford/google-assistant-relay.src/google-assistant-relay-notifications.groovy
+In the right side panel under New (only in GitHub) check the box next to smartapps/braytonstafford/google-assistant-relay-notifications.src/google-assistant-relay-notifications.groovy
 
 Check the box for Publish
 
@@ -30,7 +30,7 @@ Click Execute update
 
 **Method 2**
 
-Visit this [https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay.src/google-assistant-relay-notifications.groovy](https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay.src/google-assistant-relay-notifications.groovy) and copy the entire contents.
+Visit this [https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay-notifications.src/google-assistant-relay-notifications.groovy](https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay-notifications.src/google-assistant-relay-notifications.groovy) and copy the entire contents.
 
 Login to your SmartThings API account
 [https://graph-na02-useast1.api.smartthings.com/ide/apps](https://graph-na02-useast1.api.smartthings.com/ide/apps)
@@ -41,7 +41,7 @@ Click New SmartApp
 
 Click From Code
 
-Paste the code from [here](https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay.src/google-assistant-relay-notifications.groovy)
+Paste the code from [here](https://raw.githubusercontent.com/braytonstafford/google-assistant-relay/master/smartapps/braytonstafford/google-assistant-relay-notifications.src/google-assistant-relay-notifications.groovy)
 
 Click Create
 
