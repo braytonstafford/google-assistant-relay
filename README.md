@@ -1,5 +1,4 @@
-# Google Assistant Relay Notifications
-## SmartApp and Speech Device Handler
+# Google Assistant Relay SmartApp and Speech Device Handler
 ### for use with Google Assistant Relay v2
 
 ***Important: The smartapp and device handler will only work with a functioning Google Assistant Relay v2 server. For information on the Google Assistant Relay visit the [Google Assistant Relay v2 SmartThing's forum post](https://community.smartthings.com/t/release-google-assistant-relay-v2-0-google-home-audio-notifications).***
