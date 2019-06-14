@@ -19,9 +19,9 @@ definition(
     author: "Brayton Stafford",
     description: "Google Assistant Relay Notifications smartapp relays notfications from your devices to the Google Assistant Relay nodejs app hosted on your local network",
     category: "Convenience",
-    iconUrl: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo.png",
-    iconX2Url: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo@2x.png",
-    iconX3Url: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo@3x.png")
+    iconUrl: "https://imgur.com/Vg5WuR3.png",
+    iconX2Url: "https://imgur.com/ddFjr32.png",
+    iconX3Url: "https://imgur.com/sCjNsRS.png")
 
 preferences {
     section("Choose one or more, when...") {
