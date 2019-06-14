@@ -45,7 +45,7 @@ def parse(String description) {
 def speak(message) {
 	// log.debug "Executing 'speak'"
 	try {
-		def myJson = "{ \"user\": \"${garUser}\",\"command\": \"${message}\",\"broadcast\": false }"
+		def myJson = "{ \"user\": \"${garUser}\",\"command\": \"${message}\",\"broadcast\": true }"
 
 		def headers = [:]
 		headers.put("HOST", "$garHost:$garPort")

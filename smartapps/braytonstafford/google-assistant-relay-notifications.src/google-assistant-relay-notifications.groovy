@@ -79,7 +79,7 @@ def initialize() {
 
 def relayMessage(message, evt) {
     try {
-		def myJson = "{ \"user\": \"${garUser}\",\"command\": \"${message}\",\"broadcast\": false }"
+		def myJson = "{ \"user\": \"${garUser}\",\"command\": \"${message}\",\"broadcast\": true }"
 
         def headers = [:]
         headers.put("HOST", "$garHost:$garPort")
