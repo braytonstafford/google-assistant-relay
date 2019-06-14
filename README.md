@@ -153,4 +153,5 @@ Your device is now setup in the SmartThings app. This device has the speech synt
 * https://braytonstafford.com/
 
 ### Throw me a bone
-<a href="https://www.patreon.com/bePatron?u=3034660" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="drawing" width="163"/></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLWNGCR4CWZU6&source=url" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate" width="163"/></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLWNGCR4CWZU6&source=url" target="_blank"><img src="https://imgur.com/825moem" alt="drawing" width="163"/></a>

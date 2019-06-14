@@ -23,7 +23,7 @@ definition(
     iconX2Url: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo@2x.png",
     iconX3Url: "https://choreitup.com/wp-content/uploads/2018/11/google-assistant-relay-logo@3x.png")
 
-preferences {    
+preferences {
     section("Choose one or more, when...") {
         input "buttonSensors", "capability.button", title: "Button Pushed", multiple: true, required: false
         input "motionSensors", "capability.motionSensor", title: "Motion Here", multiple: true, required: false
@@ -78,7 +78,7 @@ def initialize() {
 
 def relayMessage(message, evt) {
     try {
-		def myJson = "{ \"command\": \"${message}\",\"broadcast\": true }"
+		def myJson = "{ \"command\": \"${message}\",\"broadcast\": false }"
 
         def headers = [:]
         headers.put("HOST", "$garHost:$garPort")
