@@ -19,6 +19,7 @@ metadata {
 		section("Google Assistant Relay Host Information") {
 			input "garHost", "string", title: "Google Assistant Relay Hostname or IP Address", multiple: false, required: true
 			input "garPort", "number", title: "Google Assistant Relay Port", multiple: false, required: true
+			input "garUser", "string", title: "Username from Google Assistant Relay Config", multiple: false, required: true
 		}
 	}
 
@@ -44,7 +45,7 @@ def parse(String description) {
 def speak(message) {
 	// log.debug "Executing 'speak'"
 	try {
-		def myJson = "{ \"command\": \"${message}\",\"broadcast\": false }"
+		def myJson = "{ \"user\": \"${garUser}\",\"command\": \"${message}\",\"broadcast\": false }"
 
 		def headers = [:]
 		headers.put("HOST", "$garHost:$garPort")
