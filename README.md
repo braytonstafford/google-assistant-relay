@@ -154,4 +154,5 @@ Your device is now setup in the SmartThings app. This device has the speech synt
 
 ### Throw me a bone
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLWNGCR4CWZU6&source=url" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate" width="163"/></a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLWNGCR4CWZU6&source=url" target="_blank"><img src="https://imgur.com/825moem" alt="drawing" width="163"/></a>
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YLWNGCR4CWZU6&source=url" target="_blank"><img src="https://imgur.com/825moem.png" alt="Donate QR Code"/></a>
