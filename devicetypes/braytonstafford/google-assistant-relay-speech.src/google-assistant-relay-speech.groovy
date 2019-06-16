@@ -19,7 +19,7 @@ metadata {
 		section("Google Assistant Relay Host Information") {
 			input "garHost", "string", title: "Google Assistant Relay Hostname or IP Address", multiple: false, required: true
 			input "garPort", "number", title: "Google Assistant Relay Port", multiple: false, required: true
-			input "garUser", "string", title: "Username from Google Assistant Relay Config", multiple: false, required: true
+			input "garUser", "string", title: "Username from Google Assistant Relay Config", multiple: false, required: false
 		}
 	}
 
