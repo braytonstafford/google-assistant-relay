@@ -61,6 +61,9 @@ def homePage(params) {
                  page: "scheduledPage",
                  params: hrefParams)
         }
+        section("Set for specific mode(s)") {
+            mode(title: "Set for specific mode(s)")
+        }
     }
 }
 
