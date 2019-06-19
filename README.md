@@ -7,7 +7,7 @@
 
 **Device Handler:** Can be used in conjunction with 3rd party tools (ie. WebCoRE) to send custom notifications to your [Google Assistant Relay v2](https://community.smartthings.com/t/release-google-assistant-relay-v2-0-google-home-audio-notifications) server.
 
-You do not need to install both the smartapp and device handler. If you only want device notifications the smartapp will do that autonomous from the device handler.  The device handler is handy to have if you are integrating other smartapps or 3rd party applications that need a smartthings device to perform an action. Currently the device handler only supports the speech synthesis capability.
+You do not need to install both the smartapp and device handler. If you only want device notifications the smartapp will do that independently from the device handler.  The device handler is handy to have if you are integrating other smartapps or 3rd party applications that need a smartthings device to perform an action. Currently the device handler only supports the speech synthesis capability.
 
 # Install Instructions: Installing the SmartApp on the SmartThings hub and in the SmartThings App
 ## STEP 1: Install the SmartApp on the Hub

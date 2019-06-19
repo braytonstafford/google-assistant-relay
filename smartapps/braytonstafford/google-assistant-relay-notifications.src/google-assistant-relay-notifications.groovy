@@ -34,7 +34,7 @@ def homePage(params) {
         someKey: "someVal"
     ]
 
-    dynamicPage(name: "homePage", title: "Google Assistance Relay Notification Setup", uninstall: true) {
+    dynamicPage(name: "homePage", title: "Google Assistance Relay Notification Setup", install: true, uninstall: true) {
         section("Choose one or more, when...") {
             input "buttonSensors", "capability.button", title: "Button Pushed", multiple: true, required: false
             input "motionSensors", "capability.motionSensor", title: "Motion Here", multiple: true, required: false
